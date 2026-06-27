@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Добро пожаловать в Bakirci World</title>
+  </head>
+  <body>
+    <header>
+  <h1>Bakirci World</h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<div class="container">
+
+  <div class="tabs">
+    <div class="tab active" onclick="showTab('home')">Home</div>
+    <div class="tab" onclick="showTab('news')">News</div>
+    <div class="tab" onclick="showTab('earthquakes')">Earthquakes</div>
+    <div class="tab" onclick="showTab('weather')">Weather</div>
+    <div class="tab" onclick="showTab('exchange')">Exchange</div>
+    <div class="tab" onclick="showTab('map')">Map</div>
+    <div class="tab" onclick="showTab('calendar')">Calendar</div>
+    <div class="tab" onclick="showTab('bakrbank')">BakrBank</div>
+  </div>
+
+  <!-- HOME -->
+  <div id="home" class="section active">
+    <div class="card">
+      <h2>Welcome 👋</h2>
+      <p>Bakirci World dashboard is ready.</p>
+    </div>
+  </div>
+
+  <!-- NEWS -->
+  <div id="news" class="section">
+    <div class="card">
+      <h2>Latest News</h2>
+      <p>No news loaded yet.</p>
+      <button onclick="window.location.href='https://example.com'">
+        Show All News
+      </button>
+    </div>
+  </div>
+
+  <!-- EARTHQUAKES -->
+  <div id="earthquakes" class="section">
+    <div class="card">
+      <h2>Earthquakes</h2>
+      <p>No data yet.</p>
+    </div>
+  </div>
+
+  <!-- WEATHER -->
+  <div id="weather" class="section">
+    <div class="card">
+      <h2>Weather</h2>
+      <p>Loading weather...</p>
+    </div>
+  </div>
+
+  <!-- EXCHANGE -->
+  <div id="exchange" class="section">
+    <div class="card">
+      <h2>Exchange Rates</h2>
+      <p>Bakr rates coming soon.</p>
+    </div>
+  </div>
+
+  <!-- MAP -->
+  <div id="map" class="section">
+    <div class="card">
+      <h2>Interactive Map</h2>
+      <p>Map system will be added here.</p>
+    </div>
+  </div>
+
+  <!-- CALENDAR -->
+  <div id="calendar" class="section">
+    <div class="card">
+      <h2>Bakirci Calendar</h2>
+      <p>Holidays will appear here.</p>
+    </div>
+  </div>
+
+  <!-- BAKRBANK -->
+  <div id="bakrbank" class="section">
+    <div class="card">
+      <h2>BakrBank</h2>
+      <p>Balance system loading...</p>
+    </div>
+  </div>
+
+</div>
+  </body>
+</html>
